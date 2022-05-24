@@ -4,6 +4,11 @@
   padding: 15px;
   border-radius: 6px;
   cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
 
   &.primary {
     background: $dark-blue;
@@ -12,6 +17,15 @@
     line-height: 32px;
     letter-spacing: -0.18px;
     color: $cream;
+    border: none;
+    &:hover {
+      background: linear-gradient(
+        135deg,
+        #a060ff 0%,
+        #cb30e3 49.21%,
+        #ffa84e 100%
+      );
+    }
   }
 
   &.secondary {
@@ -28,7 +42,7 @@
       background: $dark-blue;
       border: 1px solid $dark-blue;
       border-radius: 6px;
-      color:$cream ;
+      color: $cream;
     }
   }
 }
