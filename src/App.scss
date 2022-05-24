@@ -1,0 +1,13 @@
+@import '\ scss-const.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue";
+  font-style: normal;
+}
+main {
+  background:$cream;
+  height: 100vh;
+padding: 65px 165px 72px;
+}
