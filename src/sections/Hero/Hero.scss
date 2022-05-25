@@ -1,3 +1,5 @@
+@import "../../\ scss-const.scss";
+
 .hero__container {
   position: relative;
   display: flex;
@@ -16,7 +18,7 @@
 }
 
 .hero__wrapper {
-  background: #172339;
+  background: $dark-blue;
   border-radius: 15px;
   width: 1109px;
   height: 545px;
@@ -121,7 +123,7 @@
   font-size: 20px;
   line-height: 35px;
   letter-spacing: 0.1px;
-  color: #f3ede7;
+  color: $beige;
   width: 350px;
   margin-bottom: 40px;
 
@@ -156,5 +158,5 @@
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 2.5px;
-  color: #f3ede7;
+  color: $beige;
 }
