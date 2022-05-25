@@ -1,6 +1,7 @@
 import { Button } from "../../components/Button/Button";
 import circle from '../../assets/pattern-curved-line-1.svg'
 import cellphone from '../../assets/image-hero-portrait.png'
+import cellphoneMobile from '../../assets/image-hero-landscape.png'
 import "./Top.scss";
 
 export const Top = () => {
@@ -19,6 +20,7 @@ export const Top = () => {
         </p>
         <Button label="Request Beta Access" className="btn primary" />
       </div>
+      <img src={cellphoneMobile} alt="cellphoneMobile" className="cell-mobile"/>
       <div className="top__right">
         <div className="top__right-labels">
           <span className="top_right-header">2K+</span>

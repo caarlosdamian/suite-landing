@@ -1,11 +1,14 @@
-.navbar__container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 67px;
-    padding: 0 165px;
-    width: 100%;
-    @media (max-width: 768px) {
-        padding: 0 40px;
-      }
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 67px;
+  padding: 0 165px;
+  width: 100%;
+  @media (max-width: 768px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 375px) {
+    padding: 0 16px;
+  }
 }
