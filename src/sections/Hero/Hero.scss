@@ -30,6 +30,7 @@
   padding-right: 125px;
   padding-bottom: 88px;
 
+
   @media (max-width: 768px) {
     width: 689px;
     height: 684px;
@@ -61,11 +62,11 @@
   z-index: 2;
   left: 250px;
   @media (max-width: 768px) {
-   width: 252px;
-   top: -430px;
+    width: 252px;
+    top: -430px;
   }
   @media (max-width: 375px) {
-  left: 55px;
+    left: 55px;
   }
 }
 
@@ -79,7 +80,7 @@
   }
   @media (max-width: 375px) {
     left: -50px;
-    }
+  }
 }
 
 .hero__img-pattern {
@@ -108,10 +109,10 @@
   @media (max-width: 375px) {
     width: 573px;
     font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-letter-spacing: -0.416667px;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.416667px;
   }
 }
 
@@ -139,8 +140,8 @@ letter-spacing: -0.416667px;
     line-height: 32px;
     text-align: center;
     letter-spacing: 0.09px;
-    
-}}
+  }
+}
 
 .hero__footer-header {
   font-weight: 700;
